@@ -1,0 +1,61 @@
+<HTML>
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=utf-8">
+	<TITLE>POGメニュー</TITLE>
+<SCRIPT language="JavaScript">
+	function writeLastMod() {
+		modDay = new Date(document.lastModified);
+		y = modDay.getFullYear();
+		m = modDay.getMonth() + 1;
+		d = modDay.getDate();
+		document.write("<I>Last Updated:",y,"/",m,"/",d,"</I>");
+	}
+	function writeTopics() {
+		an = navigator.appName;
+		if (an.indexOf("Microsoft") < 0) {
+			document.write("<BLINK>");
+			document.write("<CENTER><FONT COLOR=\"#ff0000\">ツギタテファイヤー オープン７着 モリデンキング ナリタトップロード賞６着</FONT>&nbsp;</CENTER>");
+			document.write("</BLINK>");
+		} else {
+			document.write("<MARQUEE>");
+			document.write("<FONT COLOR=\"#ff0000\">ツギタテファイヤー オープン７着 モリデンキング ナリタトップロード賞６着</FONT>&nbsp;");
+			document.write("</MARQUEE>");
+		}
+	}
+</SCRIPT>
+</HEAD>
+<STYLE TYPE="text/css">
+<!--
+	A {text-decoration:none;}
+-->
+</STYLE>
+
+<BODY BACKGROUND="../../image/cheerswall2.gif">
+
+<CENTER>
+<P>
+  <TABLE width="75%" BORDER="0">
+    <TR> 
+      <TD ALIGN="CENTER"> <P ALIGN="CENTER"><B><FONT SIZE="5" COLOR="#CC0000">札幌サポーターズクラブ</FONT></B></TD>
+    </TR>
+    <TR> 
+      <TD ALIGN="CENTER"> <SCRIPT language="JavaScript">
+				writeLastMod()
+			</SCRIPT> </TD>
+    </TR>
+    <TR> 
+      <TD> <SCRIPT language="JavaScript">
+				writeTopics();
+			</SCRIPT> </TD>
+    </TR>
+    <TR>
+    	<TD ALIGN="CENTER">サポート馬はソルティー,ツギタテ,モリデンの3頭と判明！！</TD>
+    </TR>
+  </TABLE>
+
+</CENTER>
+
+</BODY>
+
+</HTML>
